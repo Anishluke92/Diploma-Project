@@ -1,0 +1,449 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto%27);");
+
+/* Body */
+body{
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Passage */
+.passage{
+    text-align: center;
+}
+
+
+/* Maine head */
+.MainHead {
+    position: fixed;
+}
+
+/*  First Parallax main image*/
+#parallax-image{
+    background-image: url("../Image/BackPain.jpg");
+    height:400px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* 3rd parallax*/
+}
+#parallax-image3{
+    background-image: url("../Image/bernard-hermant-1065742-unsplash.jpg");
+    height:400px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* h1 */
+h1{
+    font-family: sans-serif;
+    Color:white;
+    font-size:50px;
+}
+
+.contact{
+    Color:Black;
+    font-size:50px;
+}
+
+/* h2*/
+h2{
+    color:white;
+}
+
+/* 1st parallax..the girl one*/
+#parallax-image1{
+    background-image: url("../Image/BackPain.jpg");
+    height:400px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2st parallax..the girl one*/
+#parallax-image2{
+    background-image: url("../Image/BackPain.jpg");
+    height:400px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* name inside parallelex */
+h4.name{
+    color:white;
+
+}
+
+.col_white_amrc { color:#FFF;}
+
+
+/* Footer */
+footer {
+    width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;
+}
+
+
+.pt2 {
+    padding-top:40px ; margin-bottom:20px ;
+}
+
+
+/* footer*/
+footer p {
+    font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;
+}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+    list-style-type:none;
+    padding:0px;
+    display:table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+
+/* 4st parallax..the girl one*/
+#parallax-image4{
+    background-image: url("../Image/boxed-water-is-better-1463966-unsplash.jpg");
+    height:700px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* h4*/
+h4{
+    color:black;
+}
+
+
+/* Contact us form*/
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+#demo img {
+    max-width:100%;
+    height:80vh;
+}
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Navigation bar*/
+#nav-wrapper{
+    position: fixed;
+    background: transparent;
+    padding: 0px 20px;
+}
+
+.img-fluid{
+    width: 100% ;
+    height: auto;
+}
+
+
+<!-- header  -->
+
+.MainHead{
+    padding: 100px;
+    box-sizing: border-box;
+    float: initial;
+    color:white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 25px;
+}
+
+.centerContent {
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 25px;
+}
+
+section{
+    width: 100%;
+    heigth:100vh;
+}
+section.sec1{
+    background-image: url("../Image/Extreme-Indoor-Sports-for-Totally-Rad-Kids-compressed-1.jpg");
+    height:700px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h2.fost{
+    color:black;
+}
+p.INFO{
+    text-align: justify;
+}
+.top-container {
+    padding: 16px;
+    text-align: center;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+
+}
+
+.btn-dark{
+    background-color:black;
+    color:white;
+}
+
+/**/
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+}
+
+
+/*Section*/
+section.sec1{
+    background-image: url("../Image/Extreme-Indoor-Sports-for-Totally-Rad-Kids-compressed-1.jpg");
+    height:700px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h2.fost{
+    color:black;
+}
+p.INFO{
+    text-align: justify;
+}
+
+
+/* The top container*/
+.top-container {
+    padding: 16px;
+    text-align: center;
+}
+
+
+
+/* the header*/
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+
+/*Contact Form*/
+
+.header3 {
+    width: 40%;
+    margin: 50px auto 0px;
+    color: white;
+    background: black;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+/*Form content*/
+form, .content {
+    width: 100%;
+    border: 1px solid #B0C4DE;
+    background: #dddddd;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*Input groups*/
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input-group textarea {
+    height: 60px;
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.input-group2 {
+    margin: 5px 100px 5px 180px;
+}
+
+
+/* Sign in name on all the pagese*/
+.welcome
+{
+    text-align: right;
+}
+
+
+
+
+
